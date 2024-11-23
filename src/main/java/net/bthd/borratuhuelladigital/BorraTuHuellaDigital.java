@@ -241,7 +241,8 @@ public class BorraTuHuellaDigital extends javax.swing.JFrame {
     }//GEN-LAST:event_btnQueSonActionPerformed
 
     private void btnGuiaGestionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGuiaGestionActionPerformed
-        // TODO add your handling code here:
+        cookiesGestion newCookiesGestion = new cookiesGestion();
+        newCookiesGestion.setVisible(true);
     }//GEN-LAST:event_btnGuiaGestionActionPerformed
 
     private void btnPrivacidadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPrivacidadActionPerformed
